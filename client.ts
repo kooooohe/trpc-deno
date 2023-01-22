@@ -7,7 +7,7 @@ import {
 const client = createTRPCProxyClient<AppRouter>({
   links: [
     httpLink({
-      url: "http://localhost:8000/trpc",
+      url: "http://localhost:5005/trpc",
     }),
   ],
 });
