@@ -1,0 +1,10 @@
+{
+  "deno": {
+    "initialization_options": {
+      "enable": true,
+      "lint": true,
+      "unstable": true,
+      "importMap": "your_own_import_map.json"
+    }
+  }
+}
